@@ -1,0 +1,367 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #D8D4C9;
+}
+
+/*Header & Nav*/
+.nav {
+    height: 50px;
+    border-bottom: 1px solid #515A49;
+    position: fixed;
+    width: 100%;
+    background-color: #D8D4C9;
+    z-index: 9999;
+}
+.nav ul {
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    text-align: center;
+}
+.nav ul li {
+    font-size: 20px;
+    padding-top: 15px;
+    font-family: 'Sweet Bread', sans-serif;
+    font-weight: bolder;
+    display: inline-block;
+    margin: 0 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: #908d84;
+    padding: 10px 0;
+}
+.nav ul li a:hover {
+    color: #515A49;
+    transition: 2s;
+}
+
+
+/*Hero Image*/
+.hero {
+    height: 1000px;
+    background-image: url(images/hero.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero h1 {
+    margin-top: 50px;
+    font-size: 180px;
+    color: #515A49;
+    font-family: 'Sharky', sans-serif;
+    animation-duration: 3s;
+}
+.hero h2 {
+    margin-top: 0px;
+    font-size: 60px;
+    font-family: 'Westiga', sans-serif;
+    color: #515A49;
+    padding-left: 550px;
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+.hero h3 {
+    margin-top: 0px;
+    font-size: 60px;
+    font-family: 'Westiga', sans-serif;
+    color: #515A49;
+    padding-left: 490px;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+.hero h4 {
+    margin-top: 0px;
+    font-size: 30px;
+    font-family: 'Westiga', sans-serif;
+    color: #515A49;
+    padding-top: 30px;
+    padding-left: 750px;
+    animation-delay: 6s;
+    animation-duration: 3s;
+}
+
+
+/*Hair Image Carousel*/
+.work {
+    padding-top: 100px;
+}
+.work h1 {
+    margin-top: 70px;
+    font-size: 50px;
+    background-color: #515A49;
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #D8D4C9;
+    font-family: 'Westiga', sans-serif;
+    --animate-delay: 7s;
+    animation-duration: 3s;
+}
+.container {
+    width: 100%;
+    height: 100px;
+    background: #515a4978;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 450px;
+    padding-bottom: 450px;
+}
+.swiper {
+    width: 90%;
+    height: 750px;
+}
+.swiper-slide img {
+    width: 100%;
+    position: top;
+}
+.swiper .swiper-button-prev {
+    color: #515A49;
+}
+.swiper .swiper-button-next {
+    color: #515A49;
+}
+.swiper .swiper-pagination-bullet-active {
+    background: #515A49;
+}
+
+/*Services*/
+.services {
+    padding-top: 175px;
+}
+.services h2 {
+    margin-top: 0px;
+    font-size: 50px;
+    background-color: #515A49;
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #D8D4C9;
+    font-family: 'Westiga', sans-serif;
+    --animate-delay: 7s;
+    animation-duration: 3s;
+}
+.pricing {
+    padding-left: 50px;
+    display: inline-block;
+    
+}
+.pricing h3{
+    font-size: 50px;
+    font-family: 'Miracle Fairway Personal Use', sans-serif;
+    font-weight: bold;
+    color: #515A49;
+    margin-bottom: -20px;
+}
+.pricing h4 {
+    font-family: 'Sweet Bread', sans-serif;
+    font-size: 25px;
+}
+.pricing h5 {
+    font-family: 'Sweet Bread', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #515a49a4;
+    color: white;
+    padding-left: 100px;
+}
+.pricing p {
+    font-family: 'Sweet Bread', sans-serif;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.singleprocess {
+    float: right;
+    padding-right: 50px;
+    width: 600px;
+}
+.highlights {
+    float: right;
+    padding-right: 50px;
+    width: 600px;
+}
+.doubleprocess {
+    width: 600px;
+}
+.treatments {
+    width: 600px;
+    float: right;
+    padding-right: 50px;
+}
+.specialty {
+    width: 600px;
+    padding-left: 50px;
+    margin-top: 30px;
+}
+.extensions {
+    width: 600px;
+    margin-top: 35px;
+}
+.gloss {
+    float: right;
+    width: 600px;
+    padding-right: 50px;
+    margin-top: -220px;
+}
+.waxing {
+    float: right;
+    padding-right: 485px;
+    margin-top: -580px;
+}
+
+/*Policies*/
+.text {
+    margin-top: 100px;
+    height: 250px;
+    width: auto;
+    justify-content: center;
+    font-family: 'Sweet Bread', sans-serif;
+    font-size: 20px;
+    background-color: #515a49ab;
+    color: #D8D4C9;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+.text p {
+    margin-top: 0px;
+}
+.policies {
+    margin-left: 630px;
+    margin-top: -150px;
+}
+.policies h3 {
+    margin-top: 0px;
+    font-size: 50px;
+    background-color: #515A49;
+    display: inline-block;
+    color: #D8D4C9;
+    font-family: 'Westiga', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.policies h3:hover {
+    color: #515A49;
+    background-color: #D8D4C9;
+    transition: 2s;
+    cursor: pointer;
+}
+
+/*Reviews*/
+.britt {
+    width: 700px;
+    position: relative;
+    margin-top: 100px;
+    padding-left: 50px;
+    height: 300px;
+}
+.britt h2 {
+    font-family: 'Sweet Bread', sans-serif;
+}
+.britt h3 {
+    float: right;
+    padding-right: 20px;
+    font-family: 'Westiga', sans-serif;
+}
+.britt h4 {
+    float: right;
+    margin-top: 50px;
+    font-family: 'Sweet Bread', sans-serif;
+}
+.diana {
+    width: 700px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 715px;
+    padding-right: 50px;
+    height: 150px;
+}
+.diana h2 {
+    font-family: 'Sweet Bread', sans-serif;
+}
+.diana h3 {
+    float: right;
+    padding-right: 20px;
+    font-family: 'Westiga', sans-serif;
+}
+.diana h4 {
+    float: right;
+    margin-top: 50px;
+    font-family: 'Sweet Bread', sans-serif;
+}
+.sara {
+    width: 700px;
+    margin-top: 50px;
+    position: relative;
+    margin-top: 100px;
+    padding-left: 50px;
+    margin-bottom: 100px;
+    height: 300px;
+}
+.sara h2 {
+    font-family: 'Sweet Bread', sans-serif;
+}
+.sara h3 {
+    float: right;
+    padding-right: 20px;
+    font-family: 'Westiga', sans-serif;
+}
+.sara h4 {
+    float: right;
+    margin-top: 50px;
+    font-family: 'Sweet Bread', sans-serif;
+}
+
+/*Footer*/
+.footer {
+    background-color: #515a49ab;
+    display: flex;
+    justify-content: space-between;
+}
+.map {
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+.contact {
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.contact h4 {
+    font-family: 'Sweet Bread', sans-serif;
+    color: #D8D4C9;
+    font-size: 25px;
+}
+.contact p {
+    font-family: 'Sweet Bread', sans-serif;
+    color: #D8D4C9;
+    font-size: 15px;
+}
+.contact p:hover {
+    color: #242821;
+    transition: 2s;
+    cursor: pointer;
+}
+.hours {
+    padding-right: 50px;
+}
+.hours h5 {
+    font-family: 'Sweet Bread', sans-serif;
+    font-size: 25px;
+    color: #D8D4C9;
+}
+.hours p {
+    font-family: 'Sweet Bread', sans-serif;
+    color: #D8D4C9;
+    margin-top: -10px;
+}
