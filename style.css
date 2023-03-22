@@ -65,7 +65,7 @@ html, body {
     animation-delay: 3s;
 }
 .hero h3 {
-    margin-top: 0px;
+    margin-top: -150px;
     font-size: 60px;
     font-family: 'Westiga', sans-serif;
     color: #515A49;
@@ -83,11 +83,19 @@ html, body {
     animation-delay: 6s;
     animation-duration: 3s;
 }
+.hero h5 {
+    font-size: 150px;
+    color: #9dae8d;
+    font-family: 'Sharky', sans-serif;
+    animation-duration: 3s;
+    margin-top: -100px;
+    padding-left: 10px;
+}
 
 
 /*Hair Image Carousel*/
 .work {
-    padding-top: 100px;
+    padding-top: 0px;
 }
 .work h1 {
     margin-top: 70px;
@@ -133,7 +141,7 @@ html, body {
 
 /*Services*/
 .services {
-    padding-top: 175px;
+    padding-top: 50px;
 }
 .services h2 {
     margin-top: 0px;
